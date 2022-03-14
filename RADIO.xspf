@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>RadioPlaylist</title>
+	<trackList>
+		<track>
+			<title>Din Gata 100.6</title>
+			<location>http://live-cdn.sr.se/pool3/dingata/dingata.isml/dingata-audio=192000.m3u8</location>
+		</track>
+		<track>
+			<title>Guld Kanalen</title>
+			<location>http://stream.dbmedia.se/gkMP3</location>
+		</track>
+		<track>
+			<title>Rix FM</title>
+			<location>http://fm01-ice.stream.khz.se/fm01_mp3</location>
+		</track>
+		<track>
+			<title>OK Radio</title>
+			<location>http://live7.okradio.net/;*.mp3</location>
+		</track>
+		<track>
+			<title>Lofi Radio</title>
+			<location>https://www.youtube.com/watch?v=5qap5aO4i9A</location>
+		</track>
+		<track>
+			<!--location>http://fm01-icecast.mtg-r.net/fm01_mp3?platform=web&amp;playerid=mtgradio-web&amp;skey=1508076082&amp;listenerid=4534236</location-->
+			<title>HOT 108 JAM</title>
+			<location>http://hot108jamz.hot108.com:4010/</location>
+			<!--<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>-->
+		</track>
+		<!--<track>
+			<title>Programming Music Mix</title>
+			<location>https://www.youtube.com/watch?v=uh02-2WUTBY/</location>
+		</track>-->
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+	</extension>
+</playlist>
